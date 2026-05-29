@@ -1,0 +1,20 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #F4F1EC;
+  --bg-card: #EDEAE3;
+  --border: rgba(0,0,0,0.08);
+  --text-primary: #141412;
+  --text-secondary: #888680;
+  --text-muted: #B0ADA6;
+  --font-display: 'Clash Display', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --radius: 14px;
+  --radius-sm: 8px;
+}
+
+html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+body { background: var(--bg); color: var(--text-primary); font-family: var(--font-body); }
+
+a { text-decoration: none; color: inherit; }
+button { border: none; background: none; cursor: pointer; font-family: inherit; }
